@@ -54,7 +54,7 @@ function responseCRUD(argument, response) {
     switch (argument) {
         case 'login':
             if (response.id == null) {
-                alert('Email o contraseña invalidos')
+                alert('Invalid email or password, try again.')
             }
             else {
                 showSection('home', 'sign-in')
